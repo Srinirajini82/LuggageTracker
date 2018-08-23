@@ -1,0 +1,16 @@
+truffle migrate --reset --network='rinkeby'
+Using network 'rinkeby'.
+
+Running migration: 1_initial_migration.js
+  Deploying Migrations...
+  ... 0x3263c88af2b31b45a1552f1bcfe7d8aab0bb029a1cfa81b31ee9911326ce91ba
+  Migrations: 0x80fe41377e44a7b1479b5dc3ae2f96b6e264f3a8
+Saving successful migration to network...
+  ... 0xb37d2b40aab6ee82704b7fc61cad84e7e8888f86313ad24df265ab25cd46cc80
+Saving artifacts...
+Running migration: 2_luggage_migration.js
+  Deploying luggage...
+  ... 0xbaaddcd8de0b1014a6292d9099f6195ffd666013bd2e87948950f8a55ef9ced2
+  luggage: 0x8d9ae1a4257f7e7361b6dced1ec94f1dc0ba7037
+Saving artifacts...
+
