@@ -13,7 +13,7 @@ Note: Different Screens of user interface is added in the project directory.
 
   To Work with DApp:
   -------------------
-  -> cd to folder $<Path_Where_Extracted>/luggage/DApp/luggagetrack
+  -> cd to folder $<Path_Where_Extracted>/LuggageTracker/DApp/luggagetrack
   -> npm install will fix the dependencies
   -> npm start, this will start the local server listning on port 3000
   -> A browser will be opened, type in http://localhost:3000/
@@ -27,8 +27,8 @@ Note: Different Screens of user interface is added in the project directory.
  
   To Work with Smart contract:
   ----------------------------
-  -> Smart contract code reides in $<Path_Where_Extracted>/luggage/
+  -> Smart contract code reides in $<Path_Where_Extracted>/LuggageTracker/
   -> You can build the contract using "truffle compile". 
-  -> once build the new artifacts from folder $<Path_Where_Extracted>/luggage/build/contracts/luggage.json needs to be copied to the folder $<Path_Where_Extracted>/luggage/DApp/luggagetrack/src/contract/luggage.json
+  -> once build the new artifacts from folder $<Path_Where_Extracted>/LuggageTracker/build/contracts/luggage.json needs to be copied to the folder $<Path_Where_Extracted>/LuggageTracker/DApp/luggagetrack/src/contract/luggage.json
   -> For deploying the contract you need to install HDWalletProvider, usig command "npm install"
   -> "truffle migrate --reset --network='rinkeby'" is used to deploy the new contract to testnet.
