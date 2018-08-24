@@ -11,6 +11,8 @@ Note: Different Screens of user interface is added in the project directory.
 ===============
   -> git clone "https://github.com/Srinirajini82/LuggageTracker.git"
 
+  Note: npm version "6.1.0" is required
+
   To Work with DApp:
   -------------------
   -> cd to folder $<Path_Where_Extracted>/LuggageTracker/DApp/luggagetrack
