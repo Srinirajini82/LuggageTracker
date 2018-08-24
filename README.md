@@ -9,8 +9,7 @@ Note: Different Screens of user interface is added in the project directory.
 
 2) How to setUp
 ===============
-  -> Download the luggage.tar.gz file from the drive https://drive.google.com/drive/folders/1kP4acmrSb6VDydJNKOO7Whum18d7kdQ7?ogsrc=32
-  -> untar it in Ubuntu 16.04.
+  -> git clone "https://github.com/Srinirajini82/LuggageTracker.git"
 
   To Work with DApp:
   -------------------
@@ -31,4 +30,5 @@ Note: Different Screens of user interface is added in the project directory.
   -> Smart contract code reides in $<Path_Where_Extracted>/luggage/
   -> You can build the contract using "truffle compile". 
   -> once build the new artifacts from folder $<Path_Where_Extracted>/luggage/build/contracts/luggage.json needs to be copied to the folder $<Path_Where_Extracted>/luggage/DApp/luggagetrack/src/contract/luggage.json
+  -> For deploying the contract you need to install HDWalletProvider, usig command "npm install"
   -> "truffle migrate --reset --network='rinkeby'" is used to deploy the new contract to testnet.
