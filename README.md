@@ -34,3 +34,10 @@ Note: Different Screens of user interface is added in the project directory.
   -> once build the new artifacts from folder $<Path_Where_Extracted>/LuggageTracker/build/contracts/luggage.json needs to be copied to the folder $<Path_Where_Extracted>/LuggageTracker/DApp/luggagetrack/src/contract/luggage.json
   -> For deploying the contract you need to install HDWalletProvider, usig command "npm install"
   -> "truffle migrate --reset --network='rinkeby'" is used to deploy the new contract to testnet.
+
+  For Testing contract with local Ganache RPC, execute below steps
+  ----------------------------------------------------------------
+  -> truffle develope
+  -> compile
+  -> migrate
+  -> test
